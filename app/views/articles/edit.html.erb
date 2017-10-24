@@ -1,0 +1,8 @@
+<h1>Editer l'article</h1>
+
+<%= form_tag article_path(@article), method: :put do %>
+ 
+ <% render "form" %>
+ 
+  <%= submit_tag "Modifier l'article !"%>
+<% end %>
